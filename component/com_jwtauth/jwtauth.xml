@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade" version="4.0">
+    <name>JWT Auth</name>
+    <author>Brainfood Media Dev Team</author>
+    <version>1.0.0</version>
+    <authorEmail>npsaltakis@brainfoodmedia.gr</authorEmail>
+    <creationDate>June 2025</creationDate>
+    <copyright>Copyright 2025 Brainfood Media Team. All Rights Reserved.</copyright>
+    <description>JWT Auth Component</description>
+
+    <administration>
+        <menu link="index.php?option=com_jwtauth">JWT Auth</menu>
+        <files folder="admin">
+            <filename>jwtauth.php</filename>
+            <filename>controller.php</filename>
+			<filename>config.xml</filename>
+            <folder>views</folder>
+            <folder>language</folder>
+        </files>
+        <languages folder="admin/language">
+            <language tag="en-GB">en-GB.com_jwtauth.sys.ini</language>
+        </languages>
+    </administration>
+
+    <files folder="site">
+        <filename>jwtauth.php</filename>
+        <folder>controllers</folder>
+		<folder>helpers</folder>
+    </files>
+</extension>

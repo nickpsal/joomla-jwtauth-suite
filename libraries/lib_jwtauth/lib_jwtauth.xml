@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" version="3.0" method="upgrade">
+    <name>JWT Auth Library</name>
+    <libraryname>jwtauth</libraryname>
+    <author>Brainfood Media Dev Team</author>
+    <authorEmail>npsaltakis@brainfoodmedia.gr</authorEmail>
+    <creationDate>June 2025</creationDate>
+    <copyright>Copyright 2025 Brainfood Media Team. All Rights Reserved.</copyright>
+    <version>1.0.0</version>
+    <description>JWT_Auth_Library</description>
+    <files>
+	  <filename>index.html</filename>
+          <folder>utility</folder>
+          <folder>utility/firebase</folder> 
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.lib_jwtauth.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.lib_jwtauth.sys.ini</language>
+    </languages>
+</extension>

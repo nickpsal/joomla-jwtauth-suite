@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="webservices" method="upgrade">
+    <name>JWT Custom API Plugin</name>
+    <author>Brainfood Media Dev Team</author>
+    <version>1.0.0</version>
+	<authorEmail>npsaltakis@brainfoodmedia.gr</authorEmail>
+    <creationDate>June 2025</creationDate>
+    <copyright>Copyright 2025 Brainfood Media Team. All Rights Reserved.</copyright>
+
+    <description>This plugin extends Joomla Web Services by providing custom API functionality.</description>
+
+    <files>
+        <filename plugin="jwtcustom">jwtcustom.php</filename>
+        <filename>index.html</filename>
+    </files>
+
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_webservices_jwtcustom.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_webservices_jwtcustom.sys.ini</language>
+    </languages>
+</extension>

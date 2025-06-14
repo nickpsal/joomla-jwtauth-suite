@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="api-authentication" method="upgrade" version="4.0">
+    <name>Plugin - JWT Auth</name>
+	<libraryname>jwtlegacy</libraryname>
+    <author>Brainfood Media Dev Team</author>
+    <version>1.0.0</version>
+	<creationDate>June 2025</creationDate>
+    <description>Authenticates Joomla API requests using JWT tokens.</description>
+
+    <files>
+        <filename plugin="jwtlegacy">jwtlegacy.php</filename>
+        <folder>language</folder>
+    </files>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_api-authentication_jwtlegacy.ini</language>
+    </languages>
+
+    <config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="jwt_secret"
+					type="text"
+					label="COM_JWTAUTH_FIELD_JWT_SECRET_LABEL"
+					description="COM_JWTAUTH_FIELD_JWT_SECRET_DESC"
+					default="MY_SECRET"
+					size="40"
+				/>
+				<field
+					name="allowed_ips"
+					type="textarea"
+					label="COM_JWTAUTH_ALLOWED_IPS_LABEL"
+					description="COM_JWTAUTH_ALLOWED_IPS_DESC"
+					rows="5"
+					cols="40"
+				/>
+				<field name="access"
+                    type="accesslevel"
+                    label="JFIELD_ACCESS_LABEL"
+                    description="JFIELD_ACCESS_DESC"
+                    default="1" 
+				/>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

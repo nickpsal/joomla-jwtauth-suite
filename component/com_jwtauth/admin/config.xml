@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="component"
+              label="COM_JWTAUTH_FIELDSET_CONFIG_LABEL"
+              description="COM_JWTAUTH_FIELDSET_CONFIG_DESC">
+        <field
+            name="jwt_secret"
+            type="text"
+            label="COM_JWTAUTH_FIELD_JWT_SECRET_LABEL"
+            description="COM_JWTAUTH_FIELD_JWT_SECRET_DESC"
+            size="40"
+            default="mydefaultsecret"
+        />
+    </fieldset>
+</config>
