@@ -26,7 +26,7 @@ This repository provides a complete JWT authentication solution for Joomla 4 & 5
 2. After installation, activate the plugins:
    - Go to **System → Plugins**
    - Search for **JWT**
-   - Enable **JWT Auth** and **JWT Legacy** plugins.
+   - Enable **JWT Custom** and **JWT Legacy** plugins.
 
 3. Configure the component:
    - Go to **Components → JWT Auth → Options**
@@ -34,7 +34,7 @@ This repository provides a complete JWT authentication solution for Joomla 4 & 5
    - Save this key securely — you will reuse it below.
 
 4. Configure the API Authenticator plugin:
-   - Go to **System → Plugins → JWT Auth**
+   - Go to **System → Plugins → JWT Legacy**
    - Set the **JWT Secret Key** to match the one in the component.
    - Set **Allowed IP Addresses** (example: `::!,213.239.234.105`).
    - Click **Save & Close**.
